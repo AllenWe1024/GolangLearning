@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var i, j, k int
-	balance := [5]float32{1000.0, 2.0, 2, 3, 4}
+	var balance = [5] float32{1000.0, 2.0, 3.4, 7.0, 50.0}
 	for i = 0; i < 5; i++ {
 		fmt.Printf("balance[%d] = %f\n", i, balance[i])
 
